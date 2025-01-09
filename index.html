@@ -1,17 +1,24 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Title of page</title>
+        <title>Таймеры</title>
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Header of page</h1>
+            <h1>Ваши таймеры</h1>
+            <h2>Список таймеров, созданных вами. При достижении 0 таймеры удаляются</h2>
         </header>
         <main>
-            <p>Main text of page</p>
+            <div id="app">
+                <div>
+                    <input type="number" id="timer-input" placeholder="Введите время в секундах">
+                    <button id="add-timer">Добавить +</button>
+                </div>
+                <ul id="timers"></ul>
+            </div>
         </main>
         <footer>
-            <p>Foooter of page</p>
         </footer>
     </body>
 </html>
