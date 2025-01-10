@@ -1,0 +1,53 @@
+body {
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-size: medium;
+    font-weight: bold;
+    color: black;
+}
+
+header {
+    font-size: large;
+    margin: 20px 10px;
+}
+
+main {
+    font-weight: normal;
+}
+
+footer {
+    font-size: xx-small;
+    font-weight: 100;
+    color: darkgray;
+}
+
+h2 {
+    color: darkgray;
+    font-size: small;
+    font-weight: 300;
+    text-decoration: underline;
+}
+
+#app {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 2px solid darkgray;
+    border-bottom: 2px solid darkgray;
+    display: flex;
+    flex-direction: column;
+}
+
+#input-field {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+}
+
+#timer-input {
+    width: calc(1ch * 24);
+}
+
+#add-timer {
+    margin-left: 20px;
+}
